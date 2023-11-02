@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -18,13 +19,21 @@ function Footer() {
               <h3>Follow Us</h3>
               <ul>
                 <li>
-                  <a href="#">Facebook</a>
+                  <a href="#">
+                    <FaFacebook />
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Twitter</a>
+                  {" "}
+                  <a href="#">
+                    <FaTwitter />
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Instagram</a>
+                  {" "}
+                  <a href="#">
+                    <FaInstagram />
+                  </a>
                 </li>
               </ul>
             </div>

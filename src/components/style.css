@@ -64,6 +64,7 @@ th {
 }
 
 /* ============================================================= */
+
 .site-footer {
   background-color: #ffffff;
   color: #000000;
@@ -92,9 +93,9 @@ th {
   margin-left: 40px;
 }
 .site-footer .footer-social ul {
-  list-style: circle;
-  padding: 0;
-  margin: 0;
+  list-style: none;
+  display: flex;
+  padding: 0px;
 }
 
 .site-footer .footer-social ul li {
@@ -110,7 +111,7 @@ th {
 .image {
   width: 100%;
   max-width: 100%;
-  height: 600px;
+  height: 540px;
   filter: brightness(60%);
 }
 
