@@ -9,7 +9,7 @@ function LogIn() {
   const [password, setPassword] = useState();
   const navigate = useNavigate();
   const handleSubmit = (event) => {
-    const url = "https://companydatabase.onrender.com/employees/login";
+    const url = "https://companydata-3gyu.onrender.com/employees/login";
     const obj = { name, phone, email, password };
     axios
       .post(url, obj)

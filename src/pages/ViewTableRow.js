@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function ViewTableRow(props) {
   const DeleteEmployee = () => {
     const url =
-      "https://companydatabase.onrender.com/employees/delete-employee/";
+      "https://companydata-3gyu.onrender.com/employees/delete-employee/";
     axios
       .delete(url + props.obj._id)
       .then((res) => {

@@ -32,7 +32,7 @@ function EditPage() {
 
   const handleSubmit = () => {
     const url =
-      "https://companydatabase.onrender.com/employees/update-employee/" +
+      "https://companydata-3gyu.onrender.com/employees/update-employee/" +
       obj1.id;
     const newData = { name, phone, email, password };
     axios

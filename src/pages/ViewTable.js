@@ -8,7 +8,7 @@ function ViewTable() {
   const [employees, setEmployees] = useState([]);
   useEffect(() => {
     axios
-      .get("https://companydatabase.onrender.com/employees")
+      .get("https://companydata-3gyu.onrender.com/employees")
       .then(({ data }) => {
         setEmployees(data);
       })
