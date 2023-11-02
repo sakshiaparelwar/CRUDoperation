@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        MyCompany
+      <a class="navbar-brand mycom" href="#">
+        <b>MyCompany</b>
       </a>
       <button
         class="navbar-toggler"
@@ -21,7 +21,7 @@ function Header() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <Link class="nav-link active" to="/home">
+            <Link class="nav-link " to="/home">
               Home
             </Link>
           </li>

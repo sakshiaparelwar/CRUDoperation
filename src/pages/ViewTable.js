@@ -24,18 +24,20 @@ function ViewTable() {
   };
   return (
     <Layout>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Phone</th>
-            <th>Email</th>
-            <th>Password</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>{TableData()}</tbody>
-      </table>
+      <div id="signup">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Phone</th>
+              <th>Email</th>
+              <th>Password</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>{TableData()}</tbody>
+        </table>
+      </div>
     </Layout>
   );
 }
