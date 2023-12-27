@@ -14,7 +14,10 @@ function EditPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/employees/update-employee/" + obj1.id)
+      .get(
+        "https://companydata-3gyu.onrender.com/employees/update-employee/" +
+          obj1.id
+      )
       .then((res) => {
         if (res.status === 200) {
           setName(res.data.name);
